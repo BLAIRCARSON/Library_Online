@@ -3,12 +3,19 @@ body{
     color: white;
     background-color: blue;
     background-size: cover;
-    background: linear-gradient(rgba(0,0,0,0.99),rgba(0,0,0,0.0),rgba(0,0,0,0.38),rgba(0,0,0,0.0.0))
+
 }
+header{
+    text-align: center;
+    padding-top: 30px;
+    color:white
+}
+
+header img{float: inline-end;}
 
 .welcome{
     width: 280px;
-    height:625px;
+    height:auto;
     background-color: black;
     opacity: 0.9;
     padding: 55px;
@@ -66,13 +73,21 @@ ul{
 .box ul li:hover{background-color: green;}
 .box ul li:hover{color: white;}
 
-#home h1 ul li{
-    text-align: justify;
+#home{
+    padding-top: 3rem;
+    image-orientation: flip;
+}
+#home h1,
+#home ul{
+    padding-left: 30%;
+}
+#home li{
+    padding-bottom: 0.5em;
 }
 
-
-
-
+#books{
+color: black;
+}
 
 
 

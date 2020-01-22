@@ -1,140 +1,125 @@
-body{
-    font-family: latha;
-    color: white;
-    background-color: blue;
-    background-size: cover;
-
-}
-header{
+    
+nav{
+    background-color: green;
+    padding: 10px;
     text-align: center;
-    padding-top: 30px;
-    color:white
-}
-
-header img{float: inline-end;}
-
-.welcome{
+    }
+    nav ul li{
+        display: inline;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    nav>ul>li>a{
+        padding: 10px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    nav>ul>li>a:hover{
+        background-color: black;
+        padding: 20px;
+    }
+    .welcome{
     width: 280px;
     height:auto;
     background-color: black;
     opacity: 0.9;
     padding: 55px;
     float:left;
-    text-align: justify;
+    
     color: darkgray;
     font-weight: normal;
-    line-height: 1.5em;
-}
-.welcome h1{
+    
+    }
+    .welcome h1{
     text-align: center;
     text-transform: uppercase;
     font-weight: 100px;
-}
-.welcome h2{
+    
+    }
+    .welcome #home p{
+        color: darkgray;
+    }
+    .welcome #books p{
+        color: darkgray;
+    }
+    .welcome #ourteam p{
+        color: darkgray;
+    }
+
+    .welcome h2{
     text-align: center;
     text-transform: uppercase;
     font-weight: normal;
-    margin: 40px auto;  
+    margin: 40px auto; 
     color: white;
-      
-}
-
-.reserve form input[type="button"]{
-    background-color:black;
-    color:white;
-    padding: 10px;
-    margin: 10px auto;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-
-}
-form input[type="button"]:hover{
-    background-color: green;
-}
-
-.box{width: 900px;
-    float:right;
-    border: none;
+    }
     
-}
-.box ul li{
-    width: 120px;
-    float: left;
-    margin: 10px auto;
-    text-align: center;
-    background-color: black;
-
-}
-.box ul li a{text-decoration: none;
-    color: darkgray;
-
-}
-ul{
-    list-style-type: none;
-}
-.box ul li:hover{background-color: green;}
-.box ul li:hover{color: white;}
-
-#home{
+        
+    
+    #home{
     padding-top: 3rem;
     image-orientation: flip;
-}
-
-#home ul{
-    padding-left: 30%;
-}
-#home li{
-    padding-bottom: 0.5em;
-}
-
-#books{
-color: black;
-}
-button{
+   
+    }
+        
+    #books{
+    color: black;
+   
+    }
+    button{
     width: 180px;
     height: 35px;
     border: 1px green;
     border-radius: 5px;
     color: black;
-    
-}
-footer{
-text-align: center;
-color: black;
-background-color: white;
-height: 30px;
-width: 100%;
-padding-bottom: 1px;
-}
-
-footer>p{
-    padding:5px
-}
-
-h2{
-color: black;
-}
-
-
-#onlineorder{
-    color: black;
-    
-}
-
-#ourteam{
-    color: black;
-}
-
-#home{
-    color: black;
-}
-#home h1 {
-    color: lawngreen;
-}
-#contactus{
+    }
+    footer{
     text-align: center;
-}
+    color: black;
+    background-color:green;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 1px;
+    font-family: 'Six Caps', sans-serif;
 
-
-
+    }
+    
+    footer>p{
+    padding:5px
+    }
+    
+    h2{
+    color: black;
+    }
+    
+    #onlineorder{
+    color: black;
+    }
+    
+    #ourteam{
+    color: black;
+    }
+    
+    #home{
+    color: black;
+    }
+    #home h1 {
+    color: lawngreen;
+    }
+    #contactus{
+    text-align: center;
+    }
+    
+    #topsellers{
+        display: flexbox;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        text-align: center;
+        padding-left: 80px;
+    }
+    #heading{
+        text-align: center;
+    }
+    
+    

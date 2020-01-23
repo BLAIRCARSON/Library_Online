@@ -116,10 +116,35 @@ nav{
         flex-wrap: nowrap;
         justify-content: space-between;
         text-align: center;
-        padding-left: 80px;
+        padding-left: 300px;
+        padding-right: 90px;
+        padding-top: 25px;
     }
     #heading{
         text-align: center;
+        float: inline-start;
     }
+    .booksearch{
+        padding-left: 200px;
+        float: right;
+        
+    }
+    form.booksearch button {
+        float: inline-end;
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none; 
+        cursor: pointer;
+      }
     
-    
+      form.booksearch button:hover {
+        background: #0b7dda;
+      }
+      form.booksearch::after {
+        content: "";
+         display: table;
+      }
